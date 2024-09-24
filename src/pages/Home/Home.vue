@@ -3,7 +3,7 @@
     <div class="home-container-header">
       <h1 style="text-align: center">
         vue-training
-        <a href="https://github.com/Aimony/vue-training" target="_blank" style="color: inherit; text-decoration: none">
+        <a href="https://github.com/Aimony" target="_blank" style="color: inherit; text-decoration: none">
           <Icon icon="mdi:github" style="cursor: pointer" />
         </a>
       </h1>
