@@ -6,6 +6,13 @@
         <a href="https://github.com/Aimony/vue-training" target="_blank" style="color: inherit; text-decoration: none">
           <Icon icon="mdi:github" style="cursor: pointer" />
         </a>
+        <a
+          href="https://blog.linser.shop/"
+          target="_blank"
+          style="color: inherit; text-decoration: none; margin-left: 15px"
+        >
+          <Icon icon="fa-solid:blog" style="cursor: pointer" />
+        </a>
       </h1>
     </div>
     <div class="home-container-body" style="margin: 10%">
@@ -19,6 +26,9 @@
         </el-col>
         <el-col :span="6">
           <el-card class="card" shadow="hover" @click="$router.push('/rate')">汇率转换</el-card>
+        </el-col>
+        <el-col :span="6">
+          <el-card class="card" shadow="hover" @click="$router.push('/form')">表单信息</el-card>
         </el-col>
         <el-col :span="6">
           <!-- <el-card class="card" shadow="hover"></el-card> -->

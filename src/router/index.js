@@ -37,6 +37,12 @@ export const routes = [
     description: "汇率转换",
     component: () => import("../pages/Rate/Rate.vue")
   },
+  {
+    path: "/form",
+    name: "form",
+    description: "表单信息输出",
+    component: () => import("../pages/Form/Form.vue")
+  },
 
 ]
 
